@@ -1,0 +1,46 @@
+/* App.css */
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  margin: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.meal-card {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.meal-card img {
+  width: 100%;
+  height: auto;
+}
+
+.meal-card a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+}
